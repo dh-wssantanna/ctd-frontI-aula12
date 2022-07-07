@@ -1,0 +1,25 @@
+fieldset {
+    width: 250px;
+    margin: 15px auto;
+    border: 0 solid;
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+input, label {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+legend {
+    font-weight: 600;
+}
+
+.ano, .preco, .quilometragem {
+    width: 250px;
+}
+.ano input, .preco input, .quilometragem input {
+    width: 120px;
+    display: block;
+}
+.ano label, .preco label, .quilometragem label {
+    width: 120px;
+    display: block;
+}
